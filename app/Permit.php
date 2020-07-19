@@ -28,4 +28,11 @@ class Permit extends Model
     {
         return $this->hasMany('App\Risk');
     }
+
+    protected $guarded = 
+    [ 
+        'id_permit',
+        'created_at',
+        'updated_at'
+    ];
 }

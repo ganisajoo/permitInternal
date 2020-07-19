@@ -11,4 +11,11 @@ class Requestor extends Model
     {
         return $this->belongsTo('App\Permits');
     }
+
+    protected $guarded = 
+    [ 
+        'id',
+        'created_at',
+        'updated_at'
+    ];
 }

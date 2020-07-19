@@ -11,4 +11,11 @@ class Visitor extends Model
     {
         return $this->belongsTo('App\Visitors');
     }
+
+    protected $guarded = 
+    [ 
+        'id',
+        'created_at',
+        'updated_at'
+    ];
 }

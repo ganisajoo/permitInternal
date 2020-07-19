@@ -11,4 +11,11 @@ class Equipment extends Model
     {
         return $this->belongsTo('App\Permit');
     }
+
+    protected $guarded = 
+    [ 
+        'id',
+        'created_at',
+        'updated_at'
+    ];
 }
