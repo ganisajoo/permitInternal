@@ -36,6 +36,8 @@ class RequestorController extends Controller
     public function store(Request $request)
     {
         //
+        Requestor::create($request->all());
+        return redirect('/createPermit');
     }
 
     /**
