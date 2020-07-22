@@ -36,7 +36,9 @@ class PermitController extends Controller
     public function store(Request $request)
     {
         //
+        
         Permit::create($request->all());
+      
         return redirect('/createPermit');
     }
 

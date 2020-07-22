@@ -35,4 +35,14 @@ class Permit extends Model
         'created_at',
         'updated_at'
     ];
-}
+
+    //public function setToString($area_entry){
+    //    $this->attributes['area_entry'] = json_decode($area_entry);
+    //}
+
+    protected $cast = [
+        'area_entry'=>'array'
+    ];
+
+}   
+

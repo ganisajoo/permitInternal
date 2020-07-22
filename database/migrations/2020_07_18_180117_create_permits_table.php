@@ -19,12 +19,13 @@ class CreatePermitsTable extends Migration
             $table->string('purpose_work');
             $table->string('time_access');
             $table->string('access_type');
-            $table->string('area_entry');
-            $table->text('woking_procedure');
-            $table->string('testing_verfication');
+            $table->json('area_entry');
+            $table->text('working_procedure');
+            $table->string('testing_verification');
             $table->string('rollback_operation');
             $table->timestamps();
         });
+
     }
 
     /**
