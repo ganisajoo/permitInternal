@@ -36,10 +36,31 @@ class PermitController extends Controller
     public function store(Request $request)
     {
         //
+
+        $permit = new Permit;
+        $permit->nama_permit = $request->nama_permit;
+        $permit->purpose_work = $request->purpose_work;
+        $permit->time_access = $request->time_access;
+        $permit->area_entry = json_encode($request->area_entry);
+        $permit->working_procedure = $request->working_procedure;
+        $permit->testing_verification = $request->testing_verification;
+        $permit->rollback_operation = $request->rollback_operation;
+
+        $permit->save();
+
         
-        Permit::create($request->all());
-      
-        return redirect('/createPermit');
+        // Permit::create([
+        // 'nama_permit'           => $request->nama,
+        // 'purpose_work'          => $request->purpose_work,
+        // 'time_acces'            => $request->time_acess,
+        // 'area_entry'            => $request->area_entry,      
+        // 'working_procedure'     => $request->working_procedure,
+        // 'testing_verification'  => $request->testing_verification,
+        // 'rollback_operation'    => $request->rollback_operation,
+        // ]);
+     
+        // Permit::create($request->all());
+        return redirect('/');
     }
 
     /**

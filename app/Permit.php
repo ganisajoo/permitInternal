@@ -28,21 +28,20 @@ class Permit extends Model
     {
         return $this->hasMany('App\Risk');
     }
-
-    protected $guarded = 
+    protected $table = ['permits'];
+    protected $fillable = 
     [ 
-        'id_permit',
-        'created_at',
-        'updated_at'
+        'nama_permit',
+        'purpose_work',
+        'time_acces',
+        'area_entry',
+        'working_procedure',
+        'testing_verification',
+        'rollback_operation',
     ];
 
-    //public function setToString($area_entry){
-    //    $this->attributes['area_entry'] = json_decode($area_entry);
-    //}
 
-    protected $cast = [
-        'area_entry'=>'array'
-    ];
 
+   
 }   
 

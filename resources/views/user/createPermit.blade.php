@@ -75,10 +75,10 @@
                                 <hr>
                                 
                                     <h5 class="font-weight-bold mb-4">Authorized Entry Area</h5>
-                                    <div class="form-row">s
+                                    <div class="form-row">
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input name="area_entry" value="Server Room" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input name="area_entry[]" value="Server Room" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Server Room
                                                 </label>
@@ -86,7 +86,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input name="area_entry" value="MMR 1" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input name="area_entry[]" value="MMR 1" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     MMR 1
                                                 </label>
@@ -94,7 +94,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="MMR 2" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="MMR 2" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     MMR 2
                                                 </label>
@@ -102,7 +102,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="UPS Room" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="UPS Room" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     UPS Room
                                                 </label>
@@ -112,7 +112,7 @@
                                     <div class="form-row">
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="Generator Room" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="Generator Room" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Generator Room
                                                 </label>
@@ -120,7 +120,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="Panel Room" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="Panel Room" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Panel Room
                                                 </label>
@@ -128,7 +128,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="Battery Room" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="Battery Room" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Battery Room
                                                 </label>
@@ -136,7 +136,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="FSS Room" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="FSS Room" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     FSS Room
                                                 </label>
@@ -146,7 +146,7 @@
                                     <div class="form-row">
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="Trafo Room" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="Trafo Room" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Trafo Room
                                                 </label>
@@ -154,7 +154,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="Office 2nd Floor" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="Office 2nd Floor" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Office 2nd Floor
                                                 </label>
@@ -162,7 +162,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="Office 3rd Floor" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="Office 3rd Floor" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Office 3rd Floor
                                                 </label>
@@ -170,7 +170,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="Parking Lot" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="Parking Lot" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Parking Lot
                                                 </label>
@@ -180,7 +180,7 @@
                                     <div class="form-row">
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="Yard" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="Yard" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Yard
                                                 </label>
@@ -188,7 +188,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="Rooftop" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="Rooftop" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Rooftop
                                                 </label>
@@ -196,7 +196,7 @@
                                         </div>
                                         <div class="form-group col-sm-3">
                                             <div class="form-check">
-                                                <input input name="area_entry" value="Other" class="form-check-input" type="checkbox" id="gridCheck">
+                                                <input input name="area_entry[]" value="Other" class="form-check-input" type="checkbox" id="gridCheck">
                                                 <label class="form-check-label" for="gridCheck">
                                                     Other
                                                 </label>
